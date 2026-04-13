@@ -1,9 +1,6 @@
 services:
   - type: web
     name: college-event-backend
-    env: java
     plan: free
-
     buildCommand: ./mvnw clean package -DskipTests
-
     startCommand: java -jar target/*.jar
