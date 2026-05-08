@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.jsp.collegeevent.entity.Registration;
 import com.jsp.collegeevent.service.RegistrationService;
 
-@CrossOrigin(origins = "http://localhost:5173")
+//@CrossOrigin(origins = "http://localhost:5173")
 @RestController
 @RequestMapping("/registrations")
 public class RegistrationController {

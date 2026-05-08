@@ -33,7 +33,8 @@ public class User {
 	    @Column(unique = true)
 	    private String email;
 
-	    @Size(min = 6)
+	    
+	    @JsonIgnore
 	    private String password;
 
 	    private String role; 	// ADMIN / COORDINATOR / STUDENT
