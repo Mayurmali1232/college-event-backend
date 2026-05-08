@@ -24,11 +24,11 @@ public class CollegeeventApplication {
                 User admin = new User();
                 admin.setName("System Admin");
                 admin.setEmail("admin@college.edu");
-                admin.setPassword("admin123"); // Note: You should hash this in a real production app!
+                admin.setPassword("admin123"); 
                 admin.setRole("ADMIN");
 
                 userRepository.save(admin);
-                System.out.println("✅ Default Admin User Created Successfully!");
+                System.out.println(" Default Admin User Created Successfully!");
             }
         };
     }
