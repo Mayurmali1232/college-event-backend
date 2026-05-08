@@ -18,7 +18,7 @@ import com.jsp.collegeevent.service.EventService;
 
 import jakarta.validation.Valid;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/events")
 public class EventController {
