@@ -34,7 +34,7 @@ public class User {
 	    private String email;
 
 	    
-	    @JsonIgnore
+//	    @JsonIgnore
 	    private String password;
 
 	    private String role; 	// ADMIN / COORDINATOR / STUDENT
