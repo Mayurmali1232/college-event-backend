@@ -13,20 +13,17 @@ import jakarta.persistence.ManyToOne;
 
 @Entity
 public class Registration {
-
-	
-		
 		
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
 	@ManyToOne
-	@JsonManagedReference // HA badal kara: Registration kadhun student kade ja
+	@JsonIgnoreProperties("registrations")
 	private User student;
 
 	@ManyToOne
-	@JsonManagedReference // Registration kadhun event kade ja
+	@JsonIgnoreProperties("registrations")
 	private Event event;
 	
 		@Column(name = "student_seen")

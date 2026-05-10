@@ -12,7 +12,7 @@ import com.jsp.collegeevent.repo.UserRepository;
 public class CollegeeventApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CollegeeventApplication.class, args);
+		SpringApplication.run(	CollegeeventApplication.class, args);
 	}
 
 

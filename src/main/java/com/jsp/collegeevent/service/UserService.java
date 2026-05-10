@@ -57,8 +57,6 @@ public class UserService {
     
    
     
-    
-   
 
     public User updateUserRole(Long id, String newRole) {
         User user = repo.findById(id).orElseThrow(() -> new RuntimeException("User not found"));
